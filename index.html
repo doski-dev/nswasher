@@ -42,8 +42,8 @@
             <div class="contact_nav">
               <a href="">
                 <i class="fa fa-phone" aria-hidden="true"></i>
-                <span> Call : +1 863 235-1164 </span>
-              </a>
+                <span> Call : +1 863 235-1164</span>
+              </a> 
               <a href="">
                 <i class="fa fa-envelope" aria-hidden="true"></i>
                 <span> Email : mathieunorlens@gmail.com </span>
@@ -55,7 +55,7 @@
           <div class="container-fluid">
             <nav class="navbar navbar-expand-lg custom_nav-container">
               <a class="navbar-brand" href="index.html">
-                <span> NS WASHER </span>
+                <img src="images/ns.png" alt="NS Washer Logo" style="height: 100px;" />
               </a>
 
               <button
@@ -105,12 +105,11 @@
                   Services
                 </h1>
                 <p>
-                  At "NS WASHER" we provide top-notch handyman services to keep
-                  your home in top shape.From electrical wiring and plumbing to
-                  painting, presure washing and lawn mowing, our skilled
-                  proffesionals are here to help.With focus on quality,
-                  reliability and customer satifaction, we offer a range of
-                  service to meet your needs.
+                  At "NS WASHER", we provide top-notch handyman services to keep
+                  your home in top shape. From painting, pressure washing, to
+                  lawn mowing, our skilled professionals are here to help. With
+                  a focus on quality, reliability, and customer satisfaction, we
+                  offer a range of services to meet your needs.
                 </p>
                 <a href=""> Contact Us </a>
               </div>
@@ -230,7 +229,7 @@
           </div>
           <div class="col-lg-7 col-md-6">
             <div class="img-box">
-              <img src="images/about-img.jpg" alt="" />
+              <img src="images/mowi f.jpg" alt="" />
             </div>
           </div>
         </div>
@@ -299,14 +298,14 @@
           <div class="col-sm-6 col-md-4 mx-auto">
             <div class="box">
               <div class="img-box">
-                <img src="images/s2.png" alt="" />
+                <img src="images/paint.png" alt="" />
               </div>
               <div class="detail-box">
-                <h5>Electrical wiring</h5>
-                <p>
-                  "We offer expert electrical maintenance to ensure safety,
-                  prevent hazards, improve efficiency, and keep your home
-                  systems running smoothly."
+                <h5>painting</h5>
+                <p><br>
+                  We offer expert painting services to enhance your space,
+                  protect surfaces, boost curb appeal, and give your home a
+                  fresh, long-lasting finish.
                 </p>
               </div>
             </div>
@@ -314,14 +313,14 @@
           <div class="col-sm-6 col-md-4 mx-auto">
             <div class="box">
               <div class="img-box">
-                <img src="images/s3.png" alt="" />
+                <img src="images/lawn.png" alt="" />
               </div>
               <div class="detail-box">
-                <h5>Plumbing</h5>
+                <h5>Lawn Mowing</h5>
                 <p>
-                  "Our plumbing maintenance services ensure efficient water
-                  flow, prevent leaks, and address issues promptly to keep your
-                  home running smoothly."
+                  We offer expert lawn mowing services to maintain neatness,
+                  enhance appearance, promote healthy growth, and keep your
+                  outdoor space clean and attractive.
                 </p>
               </div>
             </div>
@@ -391,9 +390,8 @@
                 </div>
                 <div class="client_text">
                   <p>
-                    "I’ve used several repair services, but NS WASHER
-                    stands out for their professionalism and quality work. Truly
-                    reliable!"
+                    "I’ve used several repair services, but NS WASHER stands out
+                    for their professionalism and quality work. Truly reliable!"
                   </p>
                 </div>
               </div>
@@ -468,28 +466,40 @@
         </div>
         <div class="row">
           <div class="col-md-6">
-            <form action="">
+            <form action="https://formspree.io/f/mnqldwzk" method="POST">
               <div>
-                <input type="text" placeholder="Name" />
+                <input type="text" name="name" placeholder="Name" required />
               </div>
               <div>
-                <input type="text" placeholder="Phone Number" />
+                <input type="text" name="phone" placeholder="Phone Number" required />
               </div>
               <div>
-                <input type="email" placeholder="Email" />
+                <input type="email" name="email" placeholder="Email" required />
               </div>
               <div>
-                <input type="text" class="message-box" placeholder="Message" />
+                <textarea name="message" class="message-box" placeholder="Message" required></textarea>
               </div>
               <div class="d-flex">
-                <button>SEND</button>
+                <button type="submit">SEND</button>
               </div>
             </form>
+            
           </div>
           <div class="col-md-6">
             <div class="map_container">
               <div class="map">
-                <div id="googleMap" style="width: 100%; height: 100%"></div>
+                <div style="width: 100%; height: 400px; margin-top: 20px;">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3525.7325703709014!2d-81.47193768493858!3d27.49656748288988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88dd59920b5f7269%3A0x8d8d6fc0597600a!2s249%20Raven%20Ave%2C%20Sebring%2C%20FL%2033870%2C%20USA!5e0!3m2!1sen!2sng!4v1713541242389!5m2!1sen!2sng"
+                    width="100%"
+                    height="100%"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
+                
               </div>
             </div>
           </div>
@@ -579,7 +589,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="js/custom.js"></script>
     <!-- Google Map -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+    <script src="https://maps.app.goo.gl/htc9Bh3tcZCpEgeZ6"></script>
     <!-- End Google Map -->
   </body>
 </html>
